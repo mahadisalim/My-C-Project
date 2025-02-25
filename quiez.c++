@@ -5,7 +5,7 @@ int main() {
     int score = 0;
     int answer;
 
-    cout << "Welcome to the C++ Quiz Program! 🎉" << endl;
+    cout << "Welcome to the C++ Quiz Program! " << endl;
 
  // Question 1
     cout << "\nQuestion 1: What is the file extension for C++?\n";
@@ -13,10 +13,10 @@ int main() {
     cout << "Your answer: ";
     cin >> answer;
     if (answer == 2) {
-        cout << "Correct answer! ✅\n";
+        cout << "Correct answer! \n";
         score++;
     } else {
-        cout << "Wrong answer ❌\n";
+        cout << "Wrong answer \n";
     }
 
   // Question 2
@@ -25,10 +25,10 @@ int main() {
     cout << "Your answer: ";
     cin >> answer;
     if (answer == 3) {
-        cout << "Correct answer! ✅\n";
+        cout << "Correct answer! \n";
         score++;
     } else {
-        cout << "Wrong answer ❌\n";
+        cout << "Wrong answer \n";
     }
 
    // Question 3
@@ -37,21 +37,21 @@ int main() {
     cout << "Your answer: ";
     cin >> answer;
     if (answer == 2) {
-        cout << "Correct answer! ✅\n";
+        cout << "Correct answer! \n";
         score++;
     } else {
-        cout << "Wrong answer ❌\n";
+        cout << "Wrong answer \n";
     }
 
     // Quiz over, show score
-    cout << "\n🎉 Your total score: " << score << " / 3\n";
+    cout << "\n Your total score: " << score << " / 3\n";
 
     if (score == 3) {
-        cout << "Awesome! You fixed it all!" \n";
+        cout << "Awesome! You fixed it all! \n";
     } else if (score == 2) {
-        cout << "Good! Try a little harder!" 💪\n";
+        cout << "Good! Try a little harder! \n";
     } else {
-        cout << "No problem, just practice more!" 😊\n";
+        cout << "No problem, just practice more! \n";
     }
 
     return 0;
